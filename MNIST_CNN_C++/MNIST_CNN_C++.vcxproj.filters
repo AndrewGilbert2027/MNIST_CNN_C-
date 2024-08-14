@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Conv2D.cpp" />
+    <ClCompile Include="src\MnistLoader.cpp" />
+    <ClCompile Include="src\Pooling.cpp" />
+    <ClCompile Include="src\CNN.cpp" />
+    <ClCompile Include="src\Initializers.cpp" />
+    <ClCompile Include="src\DenseLayer.cpp" />
+    <ClCompile Include="src\Backprop.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Conv2D.h" />
+    <ClInclude Include="src\MnistLoader.h" />
+    <ClInclude Include="src\Pooling.h" />
+    <ClInclude Include="src\CNN.h" />
+    <ClInclude Include="src\Initializers.h" />
+    <ClInclude Include="src\DenseLayer.h" />
+    <ClInclude Include="src\Backprop.h" />
+  </ItemGroup>
+</Project>
